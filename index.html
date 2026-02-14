@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Automatically redirects to the website after 2 seconds -->
-    <meta http-equiv="refresh" content="1; URL='https://pornhub.com'" />
+    <!-- These tags trick Discord into embedding the GIF -->
+    <meta property="og:title" content="Your Image Title">
+    <meta property="og:type" content="video.other">
+    <meta property="og:image" content="https://ezez-beta.vercel.app/image-39.gif">
+    <meta property="og:url" content="https://ezez-beta.vercel.app">
+
+    <!-- The actual redirect logic -->
+    <meta http-equiv="refresh" content="0; URL='https://your-destination-site.com'" />
 </head>
 <body>
-    <div style="text-align: center; margin-top: 50px;">
-        <img src="image-39.gif" alt="Redirecting...">
-    </div>
+    <img src="image-39.gif" alt="Loading...">
 </body>
 </html>
